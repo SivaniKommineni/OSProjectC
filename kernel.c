@@ -364,7 +364,7 @@ void executeProgram(char* name,int* processID) {
 
         restoreDataSegment(dataseg);
     }
-    printChar(index+'0');
+//    printChar(index+'0');
 
      for (j = 0; j < 512 * sectorsRead; ++j) {
         putInMemory(a, offset, buffer[j]);
